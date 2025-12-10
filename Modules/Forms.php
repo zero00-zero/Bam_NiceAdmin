@@ -65,11 +65,7 @@ $conn->close();
                 </div>
                 <div class="col-md-4">
                   <div class="form-floating mb-3">
-                    <select class="form-select" id="floatingSelect" aria-label="State" name="lending_state">
-                      <option selected>Philippines</option>
-                      <option value="1">China</option>
-                      <option value="2">Turkmenistan</option>
-                    </select>
+                      <input type="state" class="form-control" id="floatingState" placeholder="Your State" name="lending_state">
                     <label for="floatingSelect">State</label>
                   </div>
                 </div>
